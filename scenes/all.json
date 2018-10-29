@@ -1,0 +1,151 @@
+{
+  "SHADOW": 1,
+  "CAM":
+  [
+    {
+      "center":[0, 7, -30],
+    }
+  ],
+
+  //"LGT_NUM": 4,
+  "LIGHTS":
+  [
+    {
+      "type": 1,//"POINT",
+      "center": [-5,5,5],
+      "intens": [0.3, 0.3, 0.3],
+    },
+    {
+      "type": 3,//"PARALLEL",
+      "center": [100,40,10],
+      "dir": [-1,0,0],
+      "angle": 30,
+      "intens": [0.1, 0.3, 0.3],
+    },
+    {
+      "type": 2,//"DIRECTIONAL",
+      "center": [100,40,10],
+      "dir": [-1,-1,0],
+      "angle": 30,
+      "intens": [0.3, 0.3, 0.1],
+    },
+    {
+      "type": 0, //"AMBIENT",
+      "center": [0, 0, 0],
+      "dir": [0, 0, 0],
+      "intens": [0.05,0.05,0.05],
+      // "angle": 0,
+    },
+    //	{
+    //		"type": 2, // "DIRECTIONAL",
+    //		"center": [0, 0, 0],
+    //		"dir": [0, -50, 0],
+    //		"intens": [0.4, 0.4, 0.4],
+    //		"angle": 0,
+    //	},
+    //	{
+    //		"type": 3, //"SPOT",
+    //		"center": [0, 0, 0],
+    //		"dir": [0, 1.2, 0],
+    //		"intens": 0.4,
+    //		"angle": 10,
+    //	}
+  ],
+
+  //"OBJ_NUM": 2,
+  "OBJECTS":
+  [    
+    {
+      "type": 1,//"PLANE"
+      "color": [255,255,255],
+      "specular": -1,
+      "texture": 0,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [0,-5,0],
+      "direction": [0, 1 , 0]
+
+    },
+    {
+      "type": 1,//"PLANE"
+      "limited": 1,
+      "color": [255,255,255],
+      "specular": -1,
+      "texture": 0,
+      "reflection": 0,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [40,30,0],
+      "center1": [60,30,0],
+      "center2": [40,-60,100],
+    },
+    {
+      "type": 3,//"CONE"
+      "limited": 1,
+      "color": [26,116,134],
+      "radius": 2.7,
+      "specular": 500,
+      "texture": 0,
+      "transparency": 0,
+      "refraction": 1.33,
+      "texture size": 1,
+      "angle": 30,
+      "center": [-10,-5,11],
+      "center1": [-10,10,11],
+
+    },
+    {
+      "type": 3,//"CONE"
+      "limited": 0,
+      "color": [229,139,121],
+      "radius": 0.3,
+      "specular": -1,
+      "texture": 0,
+      "angle": 30,
+      "texture size": 1,
+      "center": [20,-5,51],
+      "center1": [20 ,10,51],
+    }
+    {
+      "type": 2,//"CYLINDER"
+      "limited": 0,
+      "color": [243,239,234],
+      "radius": 1,
+      "specular": -1,
+      "texture": 0,
+      "angle": 30,
+      "texture size": 1,
+      "center": [40,-5,11],
+      "center1": [40 ,10,11],
+    }
+    {
+      "type": 2,//"CYLINDER"
+      "limited": 1,
+      "color": [255,139,234],
+      "radius": 1,
+      "specular": -1,
+      "texture": 0,
+      "angle": 30,
+      "texture size": 1,
+      "center": [40,-5,-5],
+      "center1": [40 ,10,-5],
+    }
+    {
+      "type": 0,//"CYLINDER"
+      "limited": 0,
+      "color": [255,0,234],
+      "radius": 3,
+      "specular": -1,
+      "texture": 0,
+      "angle": 30,
+      "texture size": 1,
+      "center": [40,10,-20],
+      "center1": [40 ,10,-5],
+    }
+  ],
+
+}
+
+// -server /Users/akokoshk/prj/RT_v2/scene_settings/rt.json
+// -client 127.0.0.1 5000
+

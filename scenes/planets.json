@@ -1,0 +1,135 @@
+{
+  "SHADOW": 1,
+  "CAM":
+  [
+    {
+      "center":[0, 0, -100],
+    }
+  ],
+
+  //"LGT_NUM": 4,
+  "LIGHTS":
+  [
+    {
+      "type": 1,//"POINT",
+      "center": [0, 0, 0],
+      "dir": [0, -1, 0],
+      "angle": 60,
+      "intens": [1, 1, 1],
+    },
+    {
+      "type": 0, //"AMBIENT",
+      "center": [0, 0, 0],
+      "dir": [0, 0, 0],
+      "intens": [0.1,0.1,0.1],
+      // "angle": 0,
+    },
+    //	{
+    //		"type": 2, // "DIRECTIONAL",
+    //		"center": [0, 0, 0],
+    //		"dir": [0, -50, 0],
+    //		"intens": [0.4, 0.4, 0.4],
+    //		"angle": 0,
+    //	},
+    //	{
+    //		"type": 3, //"SPOT",
+    //		"center": [0, 0, 0],
+    //		"dir": [0, 1.2, 0],
+    //		"intens": 0.4,
+    //		"angle": 10,
+    //	}
+  ],
+
+  //"OBJ_NUM": 2,
+  "OBJECTS":
+  [
+    {
+      "type": 0,//"SPHERE"
+      "specular": 500,
+      "reflection": 0,
+      "color": [240,240,240],
+      "texture": 5,
+      "transparency": 0.1,
+      "refraction": 0.1,
+      "normal map": 1,
+      "radius": 10,
+      "center": [0,0,0]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "specular": 5000,
+      "reflection": 0,
+      "color": [240,240,240],
+      "texture": 6,
+      "refraction": 0,
+      "radius": 5,
+      "center": [39,10,-5]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "specular": 5000,
+      "reflection": 0,
+      "color": [240,240,240],
+      "texture": 7,
+      "refraction": 0,
+      "radius": 5,
+      "center": [-30,3,5]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "specular": 5000,
+      "reflection": 0,
+      "color": [240,240,240],
+      "texture": 8,
+      "refraction": 0,
+      "radius": 3,
+      "center": [24,3,11]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "specular": 5000,
+      "reflection": 0,
+      "color": [240,240,240],
+      "texture": 1,
+      "refraction": 0,
+      "radius": 5,
+      "center": [0,-5,20]
+    },
+
+    // {
+    // 	"type": 3,//"CYLINDER",
+    // 	"color": [255,0,0],
+    // 	"specular": 500,
+    // 	"center": [0,0,-15],
+    // 	"reflection": 0.2,
+    // 	"transparency": 0.3,
+    // 	"refr": 1.33,
+    // 	"radius": 3,
+    // 	"direction": [0,1,0]
+    // },
+    // {
+    // 	"type": 4,//"PLANE",
+    // 	"color": [255,0,0],
+    // 	"specular": 500,
+    // 	"center": [0,0,-15],
+    // 	"reflection": 0.2,
+    // 	"transparency": 0.3,
+    // 	"refr": 1.33,
+    // 	"point":[0,0,0],
+    // 	"normal": [0,1,0]
+    // }
+  ],
+
+  "CLIENTS":
+  [
+    //{"ip":"127.0.0.1", "port": 5000, "start_line": 0, "line_num": 500 },
+    // {"ip":"127.0.0.1", "port": 5002, "start_line": 500, "line_num": 500 },
+  ],
+
+  "SERVERCHUNK" : { "start_line": 0, "line_num": 500 }
+
+}
+
+// -server /Users/akokoshk/prj/RT_v2/scene_settings/rt.json
+// -client 127.0.0.1 5000
+

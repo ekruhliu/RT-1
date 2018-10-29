@@ -1,0 +1,230 @@
+{
+  "SHADOW": 1,
+  "CAM":
+  [
+    {
+      "center":[0, 4, -5],
+    }
+  ],
+
+  //"LGT_NUM": 4,
+  "LIGHTS":
+  [
+    {
+      "type": 1,//"POINT",
+      "center": [0, 25,38],
+      "dir": [0, -1, 0],
+      "angle": 60,
+      "intens": [0.2, 0.2, 0.2],
+    },
+    {
+      "type": 0, //"AMBIENT",
+      "center": [0, 0, 0],
+      "dir": [0, 0, 0],
+      "intens": [0.5,0.5,0.5],
+      // "angle": 0,
+    },
+    //	{
+    //		"type": 2, // "DIRECTIONAL",
+    //		"center": [0, 0, 0],
+    //		"dir": [0, -50, 0],
+    //		"intens": [0.4, 0.4, 0.4],
+    //		"angle": 0,
+    //	},
+    //	{
+    //		"type": 3, //"SPOT",
+    //		"center": [0, 0, 0],
+    //		"dir": [0, 1.2, 0],
+    //		"intens": 0.4,
+    //		"angle": 10,
+    //	}
+  ],
+
+  //"OBJ_NUM": 2,
+  "OBJECTS":
+  [
+    {
+      "type": 1,//"PLANE"
+      "color": [144,82,91],
+      "specular": -1,
+      "texture": 0,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [-10,0,0],
+      "direction": [1, 0, 0]
+
+    },
+    {
+      "type": 1,//"PLANE"
+      "color": [96,87,154],
+      "specular": -1,
+      "texture": 0,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [10,0,0],
+      "direction": [-1, 0, 0]
+
+    },
+    {
+      "type": 1,//"PLANE"
+      "color": [145,138,149],
+      "specular": -1,
+      "texture": 0,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [0,-5,0],
+      "direction": [0, 1, 0]
+
+    },
+    {
+      "type": 1,//"PLANE"
+      "color": [192,192,192],
+      "specular": -1,
+      "texture": 0,
+      "refraction": 1,
+      "texture size": 1,
+      "normal map": 1,
+      "transparency": 0.3,
+      "center": [0,10,0],
+      "direction": [0, -1, 0]
+
+    },
+    {
+      "type": 1,//"PLANE"
+      "color": [192,192,192],
+      "specular": -1,
+      "texture": 0,
+      "refraction": 1,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [0,0,65],
+      "direction": [0, 0, -1]
+    },
+    {
+      "type": 1,//"PLANE"
+      "color": [192,192,192],
+      "specular": -1,
+      "texture": 0,
+      "refraction": 1,
+      "texture size": 1,
+      "normal map": 1,
+      "center": [0,0,-10],
+      "direction": [0, 0, 1]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "color": [255,255,255],
+      "specular": 5000,
+      "reflection": 1,
+      "texture": 0,
+      "radius": 2,
+      "center": [-6,-3,42]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "color": [0,255,255],
+      "transparency": 0.7,
+      "refraction": 2,
+      "texture": 0,
+      "radius": 2,
+      "center": [2,-3,42]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "color": [255,255,255],
+      "specular": 5000,
+      "reflection": 1,
+      "texture": 0,
+      "radius": 2,
+      "center": [-2,3.9,42]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "color": [255,255,255],
+      "texture": 0,
+      "transparency": 0.9,
+      "refraction": 2,
+      "radius": 2,
+      "center": [6,-3,42]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "color": [225,225,0],
+      "texture": 0,
+      "transparency": 0.9,
+      "refraction": 2,
+      "radius": 2,
+      "center": [-2,-3,42]
+    },
+    {
+    "type": 0,//"SPHERE"
+    "color": [255,0,255],
+    "texture": 0,
+    "transparency": 0.5,
+    "refraction": 2,
+    "radius": 2,
+    "center": [0,0.5,42]
+  },
+    {
+      "type": 0,//"SPHERE"
+      "color": [240,240,240],
+      "texture": 0,
+      "refraction": 2,
+      "radius": 2,
+      "center": [2,3.9,42]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "color": [130,75,200],
+      "texture": 0,
+      "refraction": 2,
+      "radius": 2,
+      "center": [-4,0.5,42]
+    },
+    {
+      "type": 0,//"SPHERE"
+      "specular": 5000,
+      "reflection": 1,
+      "color": [240,240,240],
+      "texture": 0,
+      "refraction": 2,
+      "radius": 2,
+      "center": [4,0.5,42]
+    },
+    // {
+    // 	"type": 3,//"CYLINDER",
+    // 	"color": [255,0,0],
+    // 	"specular": 500,
+    // 	"center": [0,0,-15],
+    // 	"reflection": 0.2,
+    // 	"transparency": 0.3,
+    // 	"refr": 1.33,
+    // 	"radius": 3,
+    // 	"direction": [0,1,0]
+    // },
+    // {
+    // 	"type": 4,//"PLANE",
+    // 	"color": [255,0,0],
+    // 	"specular": 500,
+    // 	"center": [0,0,-15],
+    // 	"reflection": 0.2,
+    // 	"transparency": 0.3,
+    // 	"refr": 1.33,
+    // 	"point":[0,0,0],
+    // 	"normal": [0,1,0]
+    // }
+  ],
+
+  "CLIENTS":
+  [
+    //{"ip":"127.0.0.1", "port": 5000, "start_line": 0, "line_num": 500 },
+    // {"ip":"127.0.0.1", "port": 5002, "start_line": 500, "line_num": 500 },
+  ],
+
+  "SERVERCHUNK" : { "start_line": 0, "line_num": 500 }
+
+}
+
+// -server /Users/akokoshk/prj/RT_v2/scene_settings/rt.json
+// -client 127.0.0.1 5000
+
