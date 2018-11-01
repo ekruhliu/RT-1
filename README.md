@@ -29,11 +29,11 @@ OpenCL ray tracing with refraction and reflection support(no recursion).
  
  ## without anti aliasing
  
-![no anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing.jpg)
+![no anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing.jpeg)
 
  ## with anti aliasing
  
-![anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing_on.jpg) 
+![anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing_on.jpeg) 
  
 # Check our video
 https://www.youtube.com/watch?v=2lVtOeloxk8&index=5&t=0s&list=LLN8DS4Mygn9oIkLwcK7w6Iw
