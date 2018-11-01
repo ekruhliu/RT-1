@@ -1,6 +1,9 @@
 # RT
-OpenCL ray tracing with refraction and reflection support(no recursion).
-<br />
+OpenCL ray tracing with refraction and reflection support(without recursion!).
+
+## Check our video
+https://www.youtube.com/watch?v=2lVtOeloxk8&index=5&t=0s&list=LLN8DS4Mygn9oIkLwcK7w6Iw
+
 ## My features:
  * refraction / reflection
  * fresnel effect
@@ -34,6 +37,3 @@ OpenCL ray tracing with refraction and reflection support(no recursion).
  ## with anti aliasing
  
 ![anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing_on.jpeg) 
- 
-# Check our video
-https://www.youtube.com/watch?v=2lVtOeloxk8&index=5&t=0s&list=LLN8DS4Mygn9oIkLwcK7w6Iw
