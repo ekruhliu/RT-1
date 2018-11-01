@@ -1,4 +1,12 @@
 # RT
+OpenCL ray tracing with refraction and reflection support no recursion. My part is only my.cl file (without textures and filters).
+my features:
+ * refraction / reflection
+ * figures
+ * lights: ambient, point, directional, spot
+ * color light
+ * phong effect and specular
+ * light absorbing
 
 # Screenshots
 
@@ -14,5 +22,5 @@
 
 ![water](https://github.com/iradchenua/RT/blob/master/water3.png)
 
-# Check out video
+# Check our video
 https://www.youtube.com/watch?v=2lVtOeloxk8&index=5&t=0s&list=LLN8DS4Mygn9oIkLwcK7w6Iw
