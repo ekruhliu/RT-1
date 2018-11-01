@@ -1,6 +1,7 @@
 # RT
-OpenCL ray tracing with refraction and reflection support(no recursion). My part is only my.cl file (without textures and filters).
-my features:
+OpenCL ray tracing with refraction and reflection support(no recursion).
+<br />
+## My features:
  * refraction / reflection
  * fresnel effect
  * figures
@@ -10,7 +11,8 @@ my features:
  * light absorbing
  * shadow
  * color shadow on transparent object
-
+ * anti aliasing
+ 
 # Screenshots
 
 ![sphere sphere cone](https://github.com/iradchenua/RT/blob/master/some.jpeg)
@@ -24,6 +26,14 @@ my features:
 ![water](https://github.com/iradchenua/RT/blob/master/water2.png)
 
 ![water](https://github.com/iradchenua/RT/blob/master/water3.png)
+ 
+ ## without anti aliasing
+ 
+![no anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing.jpg)
 
+ ## with anti aliasing
+ 
+![anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing_on.jpg) 
+ 
 # Check our video
 https://www.youtube.com/watch?v=2lVtOeloxk8&index=5&t=0s&list=LLN8DS4Mygn9oIkLwcK7w6Iw
