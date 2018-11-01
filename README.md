@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=2lVtOeloxk8&index=5&t=0s&list=LLN8DS4Mygn9oIkLwc
  
  ## without anti aliasing
  
-![no anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialsing.jpeg)
+![no anti aliasing](https://github.com/iradchenua/RT/blob/master/shadow_antialising.jpeg)
 
  ## with anti aliasing
  
