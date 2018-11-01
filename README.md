@@ -1,12 +1,15 @@
 # RT
-OpenCL ray tracing with refraction and reflection support no recursion. My part is only my.cl file (without textures and filters).
+OpenCL ray tracing with refraction and reflection support(no recursion). My part is only my.cl file (without textures and filters).
 my features:
  * refraction / reflection
+ * fresnel effect
  * figures
  * lights: ambient, point, directional, spot
  * color light
  * phong effect and specular
  * light absorbing
+ * shadow
+ * color shadow on transparent object
 
 # Screenshots
 
